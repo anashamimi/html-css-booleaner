@@ -13,12 +13,34 @@
     background-image: url(../img/logo.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: bottom;
-    bottom: 0;
-    left: 0;
+
    
 }
 
 span{
     background-color: yellow;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .colonna_stretta {
+    background-color: #20a9e5;
+    color: white;
+    width: 25%;
+    text-align: left;
+  }
+  .colonna_larga {
+    background-color: #20a9e5;
+    color: white;
+    width: 50%;
+    text-align: left;
+    
+  }
+
+.riga_colorata{
+    background-color: #b1e5f2;
 }
